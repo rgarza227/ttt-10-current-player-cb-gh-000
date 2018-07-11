@@ -10,9 +10,9 @@ end
 
 def current_player(board)
   if turn_count(board) % 1 == 0
-    puts "X turn"
+    puts "X"
   else
-    puts "O turn"
+    puts "O"
   end
 
 end
