@@ -3,7 +3,7 @@ def turn_count(board)
   board.each do |position|
     turn_counter++
   end
-  
+
 end
 
 def current_player(board)
@@ -12,5 +12,5 @@ def current_player(board)
   else
     puts "O turn"
   end
-  
+
 end
